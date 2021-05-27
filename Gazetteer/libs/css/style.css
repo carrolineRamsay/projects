@@ -1,0 +1,103 @@
+html, body {
+  height: calc(100vh - 51px);
+  width: 100% !important;
+  text-align: center;
+  padding-top: 0px;
+  position: fixed;
+ 
+}
+
+#mapId {
+  height: calc(100vh - 51px);
+  width: 100% !important;
+  text-align: center;
+  padding-top: 80px;
+  margin-top: 1px;
+}
+  
+
+#content {
+  height: 100%;
+}
+
+#nav-gaz{
+  font-size: 60px;
+}
+
+#nav {
+  width: 100%;
+  overflow: hidden;
+  padding:0px;
+  background: black;
+}
+
+#space {
+  padding: 10px;
+}
+
+.left {
+ text-align: left;
+ padding-left: 5px;
+}
+
+.right {
+  text-align: right;
+  padding-right: 5px;
+}
+
+#flag {
+  width: 95px;
+  height: 50px;
+  box-shadow: 2px 2px 5px;
+}
+
+#colsel{
+  width: 40%;
+}
+
+#weathIcon {
+  width: 40px;
+  height: 40px;
+}
+
+#mainWeathIcon {
+  width: 40px;
+  height: 40px;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  width: fit-content;
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+.leaflet-popup {
+  margin: 0;
+}
+
+
+#weather-modal div.leaflet-popup-content {
+  align-content: left;
+  width: auto;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+  text-align: center;
+  width: auto;
+}
+
+div.modal-dialog.modal-dialog-centered {
+  justify-content: center;
+}
+
+div.modal-content {
+  align-items: center;
+  width: fit-content;
+  text-align: center;
+}
