@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timezone, oceans and Neighbourhood</title>
+    <meta name="description" content="AJAX/PHP/CURL/JSON">  
+    <meta name="author" content="Carroline Ramsay">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="favicon.ico" rel="icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='./libs/css/style.css'>
+    
+</head>
+<body>
+
+    <header>
+      <h1>Timezones, Oceans and Neighbourhood </h1>
+      <h3>Select from the options below</h3>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+               <th></th>
+               <th>Choose latitude and longitude option</th>
+               <th>Submit</th>
+            </tr>
+            <tr>
+                <td>Timezone</td>
+                <td>
+                    <select id="selTimezoneLat">
+                        <option value="-26.2">-26.2</option>
+                        <option value=51.383>51.383</option>
+                        <option></option>
+                    </select>
+                    <select id="selTimezoneLng">
+                        <option value="28.083">28.083</option>
+                        <option value= "-0.1">-0.1</option>
+                        <option></option>
+                    </select>
+                </td>
+                <td>
+                    <button type="submit" id="timezoneBtn">Submit</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Ocean</td>
+                <td>
+                    <select id="selOceanLat">
+                        <option value="40.78">40.78</option>
+                        
+                    </select>
+                    <select id="selOceanLng">
+                        <option value="-43.96">-43.96</option>
+                        
+                    </select>
+                </td>
+                <td><button id="oceanBtn">Submit</button></td>
+            </tr>
+
+            <tr>
+                <td>Neighbourhood</td>
+                <td>
+                    <select id="selNeighbourLat">
+                        <option value=40.78>40.78</option>
+                    
+                    </select>
+                    <select id="selNeighbourLng">
+                        <option value= "-73.96">-73.96</option>
+                    
+                    </select>
+                </td>
+                <td>
+                    <button type="submit" id="neighbourBtn">Submit</button>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <table>
+                <tr>
+                    <td>Timezone: </td>
+                    <td id="timezoneResult"></td>
+                    <td id="timezoneTimeResult"></td>
+                </tr>
+
+                <tr>
+                    <td>Ocean 
+                        <br>
+                        Name:
+                    </td>
+                    <td id="oceanResult"></td>
+                </tr>
+                <tr>
+                    <td>Neighbourhood
+                        <br>
+                        City:
+                    </td>
+                    <td id="neighbourResult"></td>
+                    <td id="neighbourCityResult"></td>
+                </tr>
+
+
+            </table>
+        </div>
+    </main>
+    <div id="preloader"></div>
+
+   
+    <script type="application/javascript" src="libs/js/jquery-3.6.0.min.js"></script>
+    <script type="application/javascript" src="libs/js/script.js"></script>
+   
+</body>
+</html>
+
